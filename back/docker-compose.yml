@@ -1,0 +1,7 @@
+version: '2'
+services:
+  springbootapp:
+    image: back/liberta:0.0.1
+    container_name: back
+    ports:
+      - 8080:8080
